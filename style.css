@@ -5,6 +5,11 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
 .showcase::after {
   content: '';
   height: 100vh;
@@ -92,7 +97,7 @@ footer p {
 /* utility classes */
 
 .bg-light {
-  background: #f4f4f4;
+  background: lightpink;
   color: #333;
 }
 
@@ -109,7 +114,7 @@ footer p {
   }
 
   .content {
-    top: 5%
+    top: 5%;
     margin-top: 5px;
   }
 
