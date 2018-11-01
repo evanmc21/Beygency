@@ -19,14 +19,14 @@ a {
   background-repeat: no-repeat;
   background-position: center;
   display: block;
-  filter: blur(9px);
-  -webkit-filter: blur(9px);
+  filter: blur(10px);
+  -webkit-filter: blur(10px);
   transition: all 1000ms;
 }
 
 .showcase:hover .content {
-  filter: blur(2px);
-  -webkit-filter: blur(2px);
+  filter: blur(2.2px);
+  -webkit-filter: blur(2.2px);
 }
 
 .showcase:hover::after {
@@ -61,6 +61,7 @@ a {
   line-height: 1.7;
   margin-top: 1rem;
 }
+
 
 .container {
   max-width: 960px;
